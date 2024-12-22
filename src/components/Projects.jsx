@@ -11,7 +11,7 @@ const Projects = () => {
       image: "./klimate.png",
       technologies: ["React", "API", "TypeScript", "Redux"],
       github: "https://github.com/harshx3/klimate",
-      // demo: "#"
+      demo: "#"
     },
     {
       title: "Paste",
@@ -19,7 +19,15 @@ const Projects = () => {
       image: "./paste.png",
       technologies: ["JavaScript", "HTML", "CSS"],
       github: "https://github.com/harshx3/paste",
-      // demo: "#"
+      demo: "#"
+    },
+    {
+      title: "Note",
+      description: "Create notes or copy and paste the text to create and manage notes in better way",
+      image: "./Todo.png",
+      technologies: ["JavaScript", "React", "Coustom Hooks", "Context API"],
+      github: "https://github.com/harshx3/todo",
+      demo: "https://todo-theta-lilac.vercel.app/"
     }
   ];
 
@@ -56,10 +64,10 @@ const Projects = () => {
                       <Code2 className="w-4 h-4 mr-2" />
                       Code
                     </a>
-                    {/* <a href={project.demo} className="flex items-center text-gray-600 hover:text-blue-600">
+                    <a href={project.demo} className="flex items-center text-gray-600 hover:text-blue-600">
                       <ExternalLink className="w-4 h-4 mr-2" />
                       Live Demo
-                    </a> */}
+                    </a>
                   </div>
                 </div>
               </div>
